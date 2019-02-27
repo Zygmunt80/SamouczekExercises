@@ -1,0 +1,9 @@
+/**
+ * 
+ */
+/**
+ * @author miki
+ *
+ */
+module SamouczekExercises {
+}
