@@ -16,7 +16,7 @@ public class Exercise6 {
 		
 		int[][] arrayExample = new int[][] {{3, 5, 22}, {8, -5, -12}, {-8, 15, 21}};
 		Exercise6 summy = new Exercise6();
-		System.out.println(summy.sumArray(arrayExample));		
+		System.out.println(summy.sumArray(arrayExample));
 	}
 }
 
