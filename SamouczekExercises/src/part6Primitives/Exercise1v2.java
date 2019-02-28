@@ -19,12 +19,13 @@ public class Exercise1v2 {
 	}
 
 	private void answer() {
-		for (int i = 0; i < classessNumber; i++) {
-			int average = 0;
+		double average = 0;
+		for (int i = 0; i < classessNumber; i++) {			
 			for (int j = 0; j < notesNumber; j++) {
 				average += diary[i][j] / notesNumber;
 				if (j == notesNumber-1) {
-					System.out.println("average grade from class number " + i + " = " + average);
+					System.out.println("average grade from class number " + (i+1) + " = " + average);
+					average = 0;
 				}
 			}
 		}
