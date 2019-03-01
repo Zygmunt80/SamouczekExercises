@@ -36,7 +36,7 @@ public class Main {
 
 	private double getArgument() {
 		System.out.println("Type first number please");
-		double argument = scan.nextDouble();		
+		double argument = scan.nextDouble();
 		return argument; // tutaj pobierz liczbê od u¿ytkownika
 	}
 }
