@@ -2,14 +2,15 @@ package accessModifiers;
 
 public class Main implements BankTransfer {
 	
+	public final int TRANSFER_FEE = 1;
+	
 	@Override
 	public void transfer(BankAccount from, BankAccount to, int amount) {
 		// TODO Auto-generated method stub
-		from.withdraw(amount);
-		to.deposit(amount);
+		from.withdraw(amount+TRANSFER_FEE);
+		to.deposit(amount+TRANSFER_FEE);
 	}
 	
-
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		BankAccount account1 = new BankAccount();
