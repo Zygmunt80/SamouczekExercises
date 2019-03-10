@@ -1,6 +1,6 @@
 package part19EnumExercise;
 
-public enum EyesColor {
+public enum EyesColour {
 	GREEN,
 	BLUE,
 	BROWN,

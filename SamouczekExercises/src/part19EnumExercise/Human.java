@@ -3,15 +3,15 @@ package part19EnumExercise;
 public class Human {
 	private String name;
 	private int age;
-	private EyesColor eyesColor;
-	private HairColor hairColor;
+	private EyesColour eyesColour;
+	private HairColour hairColour;
 	
-	public Human(String name, int age, EyesColor eyesColor, HairColor hairColor) {
+	public Human(String name, int age, EyesColour eyesColour, HairColour hairColour) {
 		super();
 		this.name = name;
 		this.age = age;
-		this.eyesColor = eyesColor;
-		this.hairColor = hairColor;
+		this.eyesColour = eyesColour;
+		this.hairColour = hairColour;
 	}
 
 	public String getName() {
@@ -22,12 +22,12 @@ public class Human {
 		return age;
 	}
 
-	public EyesColor getEyesColor() {
-		return eyesColor;
+	public EyesColour getEyesColour() {
+		return eyesColour;
 	}
 
-	public HairColor getHairColor() {
-		return hairColor;
+	public HairColour getHairColour() {
+		return hairColour;
 	}
 	
 	

@@ -1,6 +1,6 @@
 package part19EnumExercise;
 
-public enum HairColor {
+public enum HairColour {
 	BLACK,
 	BLONDE,
 	BROWN
