@@ -1,5 +1,6 @@
 package part7Interfaces;
 
+import java.util.InputMismatchException;
 import java.util.Scanner;
 
 public class Main {
@@ -36,7 +37,16 @@ public class Main {
 
 	private double getArgument() {
 		System.out.println("Type number please");
-		double argument = scan.nextDouble();
+		try {
+		double argument = scan.nextDouble();		
 		return argument; // tutaj pobierz liczbê od u¿ytkownika
+		}
+		catch (Exception e) {
+			System.out.println("give a number not a String");
+			getArgument();
+			return 0;
+			
+		}		
 	}
+
 }
